@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "hey_meg",
   "author": "Mike",
-  "website": "https://github.com/hattybin/mww/blob/main/",
+  "website": "https://github.com/hattybin/mww/releases/download/release",
   "model": "hey_meg.tflite",
   "trained_languages": ["en"],
   "version": 1,
