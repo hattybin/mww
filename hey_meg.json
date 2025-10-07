@@ -1,0 +1,16 @@
+{
+  "type": "micro",
+  "wake_word": "hey_meg",
+  "author": "Mike",
+  "website": "http://10.200.2.220:18080/models/",
+  "model": "hey_meg.tflite",
+  "trained_languages": ["en"],
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.9,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 25000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
